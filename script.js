@@ -23,6 +23,31 @@
 // });
 
 
-var current = dayjs().format("MMM DD, YYYY A hh:mm:ss a"); 
-dayjs().format() 
-$()
+
+//create global variables 
+var buttonEl = $('but9') =$('#hour-9');
+var buttonEl = $('but10') =$('#hour-10');
+var buttonEl = $('but11') =$('#hour-11');
+var buttonEl = $('but12') =$('#hour-12');
+var buttonEl = $('but1') =$('#hour-1');
+var buttonEl = $('but2') =$('#hour-2');
+var buttonEl = $('but3') =$('#hour-3');
+var buttonEl = $('but4') =$('#hour-4');
+var buttonEl = $('but5') =$('#hour-5');
+
+
+
+//using day.js to display date & time IRL
+var now = dayjs().format("MMM DD, YYYY A hh:mm:ss a"); 
+// dayjs().format() 
+$("#lead").text(now);
+console.log(now);
+startTime();
+
+
+//local storage 
+
+
+
+
+
